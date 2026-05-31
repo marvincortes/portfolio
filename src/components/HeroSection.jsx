@@ -7,7 +7,7 @@ function Hero() {
             <div className="container max-w-screen-xl mx-auto px-4">
 
                 <nav className="flex items-center justify-between mb-40">
-                     <img src="/portfolio/navbar-logo.png" alt="Navbar Logo" />
+                     <img src="/navbar-logo.png" alt="Navbar Logo" />
                 </nav>
 
                 <div className="text-center">
