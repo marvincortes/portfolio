@@ -1,4 +1,3 @@
-
 import navlogo from "../assets/navbar-logo.png";
 import mc from "../assets/mc.png";
 function Hero() {
@@ -8,11 +7,6 @@ function Hero() {
         <section className="py-2 md:py-5">
 
             <div className="container max-w-screen-xl mx-auto px-4">
-
-                <nav className="flex items-center justify-between">
-                    <img src="/navbar-logo.png" alt="" />
-                </nav>
-
                 <nav className="flex items-center justify-between mb-40">
                      <img src={navlogo} alt="Nabar-Logo"/>
                 </nav>
