@@ -1,5 +1,6 @@
 
 import navlogo from "../assets/navbar-logo.png";
+import mc from "../assets/mc.png";
 function Hero() {
   return (
 
@@ -18,7 +19,7 @@ function Hero() {
 
                 <div className="text-center">
                     <div className="flex justify-center mb-10">
-                         <img src="/mc.png" alt="Profile"/>
+                         <img src={mc} alt="Profile"/>
                     </div>
 
                     <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Marvin Cortes</h6>
