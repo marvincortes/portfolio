@@ -163,7 +163,7 @@ function ExperienceSection() {
       title: "Farm Solutions",
       details: [
         "Created a system program for Farm Production Records (personal project and use).",
-        "Built using Python, Django, and Postgre.",
+        "June 25, 2025",
       ],
     },
     {
@@ -173,6 +173,7 @@ function ExperienceSection() {
         "Deployed and configured a production-ready Laravel enrollment system on a cloud VPS server, including Linux server setup, DNS, SSL, and production hosting.",
         "Project Owner: Ivan Entrina a 2nd year college, I.T. student.",
         "Deployment Date: May 25, 2026.",
+        "Removing site Date: June 5, 2026.",
       ],
       link: "https://www.enrollment.space"
     },
@@ -181,9 +182,21 @@ function ExperienceSection() {
       id: "19",
       title: "Frontend ReactJS ",
       details: [
-        "Currently practicing these React Framework (JavaScript's)",
+        "Exploring and practicing these React Framework (JavaScript's)",
+        "This portfolio page made by React",
         "Date: May 29, 2026.",
       ],
+      
+    },
+
+    {
+      id: "20",
+      title: "Django-Based Farm Records System",
+      details: [
+        "Developed and deployed a web application, custom designed for mobile view to help farmers manage farm production records efficiently. The system streamlines record-keeping by enabling users to track production data, monitor farm outputs, and organize important farm information.",
+        "Deployment Date: June 5, 2026.",
+      ],
+      link: "https://erickjan.xyz/"
     },
   ];
 
