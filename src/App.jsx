@@ -56,7 +56,7 @@ function App() {
           <Route path="/farm/:id" element={<FarmDetail />} />
           
           
-          {/* <Route path="/FarmDetail" element={<FarmDetail />} /> */}
+          <Route path="/FarmDetail" element={<FarmDetail />} />
         </Route>
         </Route>
       </Routes>

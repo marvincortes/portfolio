@@ -125,10 +125,10 @@ function ExperienceSection() {
     },
     {
       id: "13",
-      title: "Python Programming Language and Django Framework",
+      title: "Django Framework Training",
       details: [
-        "Studied Python Programming Language and the Django Framework",
-        "6 months of study under Mentor Reiljun, a Fullstack Developer Master.",
+        "Started my Django journey through Mentor Reiljun's bootcamp, focusing on hands-on web development training.",
+        "Undertook six months of dedicated study and practical experience under the mentorship of Reiljun, a Full-Stack Developer.",
         "2022",
       ],
     },
@@ -139,7 +139,9 @@ function ExperienceSection() {
         "Web Developer and Contributor at Partsman",
         " A vehicle parts platform offering a one-stop-shop for premium vehicle parts, genuine parts, and aftermarket parts. Davao City",
         "2022 to 2023",
+         "Visit their Facebook page.",
       ],
+       link: "https://www.facebook.com/partsmanplatform"
     },
     {
       id: "15",
@@ -186,7 +188,6 @@ function ExperienceSection() {
         "This portfolio page made by React",
         "Date: May 29, 2026.",
       ],
-      
     },
 
     {
@@ -213,14 +214,14 @@ function ExperienceSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
   {displayedExperiences.map((exp) => (
     <div key={exp.id} className="flex space-x-6 mt-10">
-            <h1 className="text-3xl text-gray-700">
+            <h1 className="text-gray-700">
               {exp.id}
             </h1>
 
             <span className="w-20 h-0.5 bg-gray-300 mt-5"></span>
 
             <div>
-              <h1 className="text-3xl mb-5 text-gray-700">
+              <h1 className=" mb-4 text-gray-700">
                 {exp.title}
               </h1>
 
@@ -237,7 +238,7 @@ function ExperienceSection() {
                 href={exp.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 inline-block text-blue-600 hover:underline"
+                className="mt-1 inline-block text-blue-600 hover:underline"
               >
                 - You can visit here →
               </a>
