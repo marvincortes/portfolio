@@ -12,7 +12,7 @@ function Footer() {
                           Feel free to contact me at:
                           <span className="text-blue-300">
                             {" "}
-                            hello.skapar.here@gmail.com
+                            webmaster@marvincortes.xyz
                           </span>
                         </p>
                       <span className="text-gray-100"><FiFeather size={24} /></span>

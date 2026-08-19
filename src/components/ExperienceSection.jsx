@@ -199,6 +199,16 @@ function ExperienceSection() {
       ],
       link: "https://erickjan.xyz/"
     },
+
+    {
+      id: "21",
+      title: "mythsmainit.site",
+      details: [
+        "Landing page for the MLBB contents FUN and GAMES",
+        "Deployment Date: July 26, 2026.",
+      ],
+      link: "https://www.mythsmainit.site/"
+    },
   ];
 
   const displayedExperiences = experiences.slice(0, visibleCount);
